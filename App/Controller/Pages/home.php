@@ -1,14 +1,14 @@
 <?php
 
-namespace App\controller\Pages; 
+namespace App\controller\Pages;
 
-Class Home{
+use App\Utils\View;
 
+class Home
+{
   #Retorna o conteúdo da home
-  public static function getHome(){
-
-return "Olá Mundo !";
-
-    }
-
+  public static function getHome()
+  {
+    return  View::render("pages/home");
+  }
 }
