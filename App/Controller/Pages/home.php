@@ -12,7 +12,7 @@ class Home extends Page
     $content = View::render("pages/home",[
       'name'=>'WDEV-Canal',
       'description'=>'Canal do youtube: https://youtube.com.br/wdevoficial',
-      'site'=>'www.wdev.com.br'
+      'site'=>"www.wdev.com.br",
     ]);
      
     return self::getPage('WDEV-Canal-Home',$content);

@@ -1,0 +1,14 @@
+#main-home{
+    background-image: url("../img/main-home.png");
+    color:rgb(245, 244, 244);
+
+}
+
+.link-main-home{
+    text-decoration: none; 
+    color:rgb(245, 244, 244);
+}
+
+.link-main-home:hover{
+    color:rgb(194, 192, 192);
+}
