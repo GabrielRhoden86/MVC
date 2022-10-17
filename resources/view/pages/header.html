@@ -1,34 +1,36 @@
-<div class="container">
-    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-        </a>
+<nav class="nav-header navbar navbar-expand-lg navbar-light bg-light py-3 ">
+    <div class="container-fluid ">
         <h3 class="text-muted">WDEV-MVC</h3>
-
-        <ul class="nav-header text-muted nav col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-            <li><a href="#" class="nav-link px-2 text-muted ">Inventory</a></li>
-            <li><a href="#" class="nav-link px-2 text-muted">Customers</a></li>
-            <li><a href="#" class="nav-link px-2 text-muted">Products</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
-        </form>
-
-        <div class="dropdown text-end">
-            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <!--<img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">-->
-            </a>
-            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-                <li><a class="dropdown-item" href="#">New project...</a></li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li>
-                    <hr class="dropdown-divider">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-3" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Home</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
             </ul>
+            <form class="search ">
+                <input type="search" class="form-control shadow-none border-0" placeholder="Buscar..."
+                    aria-label="Search">
+            </form>
+            <span class="mr-3">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-muted " href="#">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-muted " href="#">Cadastrar</a>
+                    </li>
+                </ul>
+            </span>
         </div>
     </div>
-</div>
+</nav>

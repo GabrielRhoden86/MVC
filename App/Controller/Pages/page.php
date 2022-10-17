@@ -21,7 +21,7 @@ private static function getFooter(){
       'title'=>$title,
       'header'=>self::getHeader(),
       'content'=>$content,
-      'footer'=>self::getFooter()
+      'footer'=>self::getFooter(),
     ]);
   }
 }

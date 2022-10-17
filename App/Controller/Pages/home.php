@@ -18,3 +18,4 @@ class Home extends Page
     return self::getPage('WDEV-Canal-Home',$content);
   }
 }
+
