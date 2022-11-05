@@ -44,11 +44,6 @@ class Router
         $patternRoute  = '/^' . str_replace('/', '\/', $route) . '$/';
 
         $this->routes[$patternRoute][$method] = $params;
-
-
-        echo "<pre>";
-        print_r($this);
-        echo "</pre>";
     }
 
 
